@@ -4,9 +4,8 @@ jdk:
 
 addons:
   sonarcloud:
-    organization: "lomels"
-    token:
-      secure: "1c26e48cc9bba2bdc0695100fb768afc81ce2eba"
+    organization: lomels
+    token: ${SONAR_TOKEN}
 
 script: 
   - ant build
